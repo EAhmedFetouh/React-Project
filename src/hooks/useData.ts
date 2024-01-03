@@ -34,7 +34,6 @@ const useData = <T>(
           setLoading(false);
         });
 
-      console.log(deps ? [...deps] : []);
       return () => controller.abort();
     },
     deps ? [...deps] : []
