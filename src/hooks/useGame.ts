@@ -17,6 +17,8 @@ export interface Game {
   background_image: string;
   description: string;
   metacritic: number;
+  rating: number;
+  rating_top: number;
   parent_platforms: { platform: Platform }[];
 }
 
