@@ -63,7 +63,7 @@ function App() {
               }
             />
           </HStack>
-          <GameGrid gameQuery={gameQuery} />
+          <GameGrid gameQuery={gameQuery || null} />
         </GridItem>
       </Grid>
     </>
